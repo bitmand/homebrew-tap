@@ -2,19 +2,19 @@ class Buckit < Formula
   desc "Two-pane terminal file manager for local files and S3-compatible stores"
   homepage "https://bitmand.dk/buckit"
   license "MIT"
-  version "0.5.0"
+  version "0.5.1"
 
   on_macos do
     on_arm do
       url "https://bitmand.dk/buckit/v#{version}/buckit-v#{version}-darwin-arm64"
-      sha256 "4dd114295abba019bb35a14ba86c29097f527963cc21f703da86ad92952c61ca"
+      sha256 "69e2d2d40c0f05e3bd87a9d27baa77a5333b3e1c03c91db7b0d3776f970660f7"
     end
   end
 
   on_linux do
     on_intel do
       url "https://bitmand.dk/buckit/v#{version}/buckit-v#{version}-linux-x86_64"
-      sha256 "f2cc03cb1abe21eba09007d03b1dea66b51d6b557b308aa946761df6c80ec008"
+      sha256 "5d1b251193d0599b6fa9232c549764d9419b480be273bd27780508bb231ef82a"
     end
   end
 
